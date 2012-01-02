@@ -1,0 +1,6 @@
+1. Make sure u have apache , mysql
+2. Extract into your www / htdocs
+3. create a database name ftmk_tshirt
+4. import database sample data (tshirt.sql)
+5. check app/Config/database.php settings .. adjust acccordingly to your machine
+6. Enjoy the sample apps 
