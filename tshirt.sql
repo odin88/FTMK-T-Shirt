@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 3.4.1
+-- version 3.5.1
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 02, 2012 at 05:47 PM
--- Server version: 5.5.13
--- PHP Version: 5.3.6
+-- Generation Time: Sep 14, 2012 at 05:02 PM
+-- Server version: 5.5.24-log
+-- PHP Version: 5.2.9-2
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `hassanba_tshirt`
+-- Database: `ftmk_tshirt`
 --
 
 -- --------------------------------------------------------
@@ -116,7 +116,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `first_name`, `created`, `modified`) VALUES
-(1, 'admin', 'b7c267f495e615cd6ed30e44abfaeab5ad7e6d54', 'Admin', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(1, 'admin', '9264f90db5df1c6510934b67ffde283a74362bc5', 'Admin', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
